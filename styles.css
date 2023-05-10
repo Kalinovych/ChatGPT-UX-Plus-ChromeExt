@@ -6,6 +6,20 @@
 }
 
 /* Overwrite font-family for code and pre elements */
-code, pre {
-    font-family: "Roboto Mono",Monaco,"Andale Mono","Ubuntu Mono",monospace!important;
+code,
+pre {
+    font-family: "Roboto Mono", Monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
+}
+
+/* Custom styles for the side menu */
+@media (max-width: 1279px) {
+    .dark.flex-shrink-0.overflow-x-hidden.bg-gray-900 {
+        width: 42px !important;
+        overflow-x: hidden !important;
+        transition: width 0.3s ease-in-out !important;
+    }
+
+    .dark.flex-shrink-0.overflow-x-hidden.bg-gray-900:hover {
+        width: 260px !important;
+    }
 }
