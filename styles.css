@@ -1,7 +1,7 @@
 /* Overwrite max-width for .lg\:max-w-xl on large screens */
 @media (min-width: 1024px) {
     html .lg\:max-w-xl {
-        max-width: 54rem !important;
+        max-width: 58rem !important;
     }
 }
 
