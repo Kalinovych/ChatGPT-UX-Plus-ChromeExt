@@ -1,23 +1,18 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-    <title>Style Adjuster</title>
+  <head>
     <style>
-        body {
-            width: 300px;
-            height: 200px;
-            padding: 10px;
-            font-family: Arial, sans-serif;
-        }
+      /* Add any styles for the popup here */
     </style>
-</head>
-
-<body>
-    <h1>Style Adjuster</h1>
-    <p>Click the button below to adjust the styles on the current page:</p>
-    <button id="adjustStyles">Adjust Styles</button>
+  </head>
+  <body>
+    <h1>Style Adjuster for ChatGPT</h1>
+    <p>Select the width setting for the content area:</p>
+    <select id="widthSetting">
+      <option value="fixed">Fixed (54rem)</option>
+      <option value="flexible">Flexible</option>
+    </select>
+    <button id="apply">Apply</button>
     <script src="popup.js"></script>
-</body>
-
+  </body>
 </html>

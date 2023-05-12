@@ -7,6 +7,7 @@ Style Adjuster is a simple Chrome extension that adjusts specific styles on the 
 - Increases the maximum width of chat blocks on large screens, eliminating side scrolling in code blocks.
 - Sets the default width of the side menu to 42px, which expands to 260px when hovered over (applied only when the viewport width is less than 1280px).
 - Changes the font family of `code` and `pre` elements to "Roboto Mono".
+- Allows switching between fixed (54rem) and flexible width settings for the content area through the extension popup.
 
 ## Installation
 
